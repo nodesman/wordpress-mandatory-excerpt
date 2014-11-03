@@ -7,7 +7,7 @@
         $("#publish").click(function() {
             var val = $("#excerpt").val();
             if (val.length === 0) {
-                alert("Excerpt is empty. Please fill in a good excerpt");
+                alert("The excerpt is empty. Please fill in a presentable excerpt.");
                 return false;
             }
         })
